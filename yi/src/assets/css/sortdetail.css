@@ -1,0 +1,214 @@
+#shaixuan{
+    width: 100%;
+    height: 5rem;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #f8f8f8;
+    border-top: 1px solid #f8f8f8;
+    background-color: white;
+    display: flex;
+    margin-top: .5rem;
+    justify-content: space-around;
+    flex-grow: 1;
+    position: fixed;
+    top: 3.5rem;
+}
+#shaixuan div{
+line-height: 5rem;
+font-size: 1.5rem;
+text-align: center;
+color: #aaaaaa;
+}
+#shaixuan div:nth-of-type(4){
+width: 3rem;
+border-left: 1px solid #f8f8f8;
+}
+#goods-list{
+    width: 100%;
+    margin-top: 9rem;
+    background-color: white;
+}
+#goods-list ul li a{
+    display: flex;
+    /*height: 9rem;*/
+    
+}
+#goods-list ul li a>div:nth-of-type(1){
+width:12rem;
+}
+#goods-list ul li img{
+    width: 100%;
+}
+.title{
+    width: 100%;
+    text-align: left;
+    padding-left: .5rem;
+    border-bottom: 1px solid #f8f8f8;
+  
+}
+
+.title-le{
+    width: 100%;
+    text-align: left;
+    float: left;
+    
+}
+.titleb{
+   
+    font-size: 1.2rem;
+    height:4rem;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+}
+.price{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: red;
+
+}
+.xiao{
+   float: left
+}
+.shopname{
+    float: right;
+    padding-right: .5rem;
+}
+header{
+    position: fixed!important;top: 0;
+    z-index: 9999;
+
+}
+a{
+    color: black;
+}
+.reda{
+    color: red!important;
+    visibility: visible;
+    
+}
+.xia{
+    float: right,
+
+}
+.paixu{
+    position: fixed;
+    top: 8rem;
+    z-index: 333;
+    width: 100%;
+    background-color: white;
+}
+.paixu ul {
+    width: 100%;
+}
+.hidd{
+   visibility: hidden;
+}
+.paixu ul li{
+    text-align: left;
+    width: 100%;
+    font-size: 1.5rem;
+    color: #aaaaaa;
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid #f8f8f8;
+}
+.paixu ul li span:nth-of-type(2){
+    float: right;
+    padding-right: 1rem;
+    display: inline-block
+}
+.noinfo{
+    width: 6rem;height: 6rem;border-radius: 50%;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    font-size: 3rem;
+    color: white;line-height: 6rem;
+}
+.rechoose{
+    width: 5rem;height: 2rem;margin: 0 auto;
+    line-height: 2rem;
+    border: 1px solid gray;
+    margin-top: 1rem;
+}
+#filter{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+#fil-header{
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #eeeeee;
+}
+.fil-left{
+    float: left;
+    margin-left: 1rem;
+}
+.fil-center{
+    font-size: 1.6rem;
+}
+.fil-right{
+    float: right;
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: red;
+}
+dl{
+    width: 100%;
+    height: 8rem;
+    text-align: left;
+    padding-top: 1rem;
+    padding-left:1rem;
+    border-bottom: 1px solid #eeeeee;
+}
+dl input{
+    width: 6rem;
+    background-color: #eeeeee;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    border-radius: 2px;
+}
+dt{
+    font-size: 1.5rem;
+    color: #aaaaaa;
+}
+dd{
+    margin-top: 1rem;
+}
+.area>dd>span{
+display: inline-block;
+width: 7rem;
+height: 3rem;
+border-radius: 5px;
+line-height: 3rem;
+background-color: #eeeeee;
+}
+.area>dd select{
+    border: none;
+    background-color: #eeeeee;
+}
+.active span,.type span{
+    display: inline-block;
+    border: 1px solid #eeeeee;
+    padding: .5rem 1rem;
+}
+.bgred{
+    background-color: #ed5564;
+    color: white;
+}
+#button{
+    width: 20rem;height: 3rem;
+    line-height: 3rem;font-size: 1.5rem;
+    background-color: #ed5564;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5rem;
+    margin: 0 auto;
+}

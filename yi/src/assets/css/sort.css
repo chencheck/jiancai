@@ -1,0 +1,119 @@
+
+header span:nth-of-type(2) input{
+    width: 20rem;
+    /*border-radius: 3px;*/
+    height: 2.5rem;
+    color: gray;
+    padding-left: 2rem;
+    outline: none;
+}
+header span:nth-of-type(2) i{
+    position: absolute;
+    left: 1rem;
+    top:.8rem;
+    color: gray;
+}
+li{
+    list-style: none;
+}
+#sort-con{
+    margin-top: 5rem;
+    border-top: 1px solid #eeeeee;
+    height: 100vh;
+    width: 100%;background-color: #f8f8f8;
+    display: flex;
+    /*height: calc(100% - 20rem)*/
+}
+.sort-le{
+    width: 8rem;
+
+    /*overflow: auto;*/
+ 
+    
+    /*overflow: hidden;*/
+    
+}
+.sort-le ul li {
+    width: 100%;
+    height: 5rem;
+}
+.sort-le ul li img{
+   width: 1.6rem;height:1.6rem;
+    display: inline-block;
+    filter: grayscale(1);
+}
+.none{
+   filter: grayscale(0)!important; 
+}
+.sort-le ul li div:nth-of-type(2){
+    color: gray;
+    font-size: 1.3rem;
+}
+.sort-ri{
+    /*margin-top: 2rem;*/
+    overflow: hidden;
+    height: 100vh;
+    background-color: #fcfcfc;
+    width: calc(100% - 8rem);
+    height: 100%;
+     
+}
+#pinpai{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pin{
+    width: 6.3rem;height: 4rem;
+    margin: .5rem;
+    background-color: white;
+}
+.pin img{
+    display: inline-block;
+    width: 100%;
+}
+#eachsort{
+    width: 100%;
+    text-align: left;
+}
+#eachsort dt{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 3rem;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+    background-color: #fcfcfc;
+    line-height: 3rem;
+}
+dl a:nth-of-type(1) dt span{
+    background-color: #ed5564;
+}
+dl a:nth-of-type(2) dt span{
+    background-color: #ac92ed;
+}
+dl a:nth-of-type(3) dt span{
+    background-color: #4fc0e8;
+}
+dl a:nth-of-type(4) dt span{
+    background-color: #a0d468;
+}
+dl a:nth-of-type(5) dt span{
+    background-color: #48cfae;
+}
+a dt  span{
+    display: inline-block;
+    width: .6rem;
+    height: .6rem;background-color: hotpink;
+    border-radius: 50%;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+#eachsort dd{
+    width: 7rem;
+    float: left;
+    text-align: center;
+    line-height: 3rem;
+}
+a{
+    color: black;
+}

@@ -1,0 +1,201 @@
+input[type="chechkbox"]{
+   display: inline-block;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+}
+#shop-head{
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+#shop-footer{
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
+    /*background-color: rgba(0, 0, 0, 0.2)*/
+}
+#checkall{
+    margin-top: 5rem;
+    text-align: left;
+    padding: 1rem;
+    background-color: white;
+}
+
+#goods ul li{
+width: 100%;
+height: 10rem;
+border-top: 1px solid #eeeeee;
+display: flex;
+background-color: white;
+padding: 1rem;
+
+}
+#goods ul li a{
+    /*display: block;*/
+    /*width: 100%;*/
+    /*display: flex;*/
+
+}
+input[type="checkbox"]{  
+    width:1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    -moz-appearance: button;
+    -webkit-appearance: button;
+    border: 2px solid gray;
+    position: relative;
+}
+input[type="checkbox"]:checked{
+    background-color: crimson;
+    border: none;
+    outline: none;
+}
+input[type="checkbox"]:checked::after{
+    content: '';
+    width: .8rem;
+    height: .3rem;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    position: absolute;
+    vertical-align: bottom;
+    transform: rotate(-45deg);
+    left: .3rem;
+    top: .4rem;
+
+}
+.goods-name{
+    width: calc(100% - 3rem);
+}
+.inp{
+    width: 2rem;
+    height: 100%;
+    line-height: 8rem;
+
+}
+.im{
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    border-radius:.5rem;
+    padding: .5rem;
+}
+.im img{
+    width: 5rem;
+    height: 5rem;
+    /*border-radius: 1rem;*/
+    display: inline-block;
+}
+.shop-title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    width: calc(100% - 8rem);
+    text-align: left;
+}
+.shop-title>p>span:nth-of-type(2){
+float: right;
+}
+.sec{
+    overflow: hidden;
+    margin-top: 2rem;
+    text-align: left;
+    position: relative;
+}
+.shop-price>h4{
+font-size: 1.5rem;
+color: #ed5564;
+
+
+}
+.reduce,.add{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2rem;
+    background-color: #f8f8f8;
+    border: 1px solid #eeeeee;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.num{
+    width: 2.5rem;
+    height: 2rem;
+    position: absolute;
+    top: 0;
+    right: 2.5rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.reduce{
+    right: 5rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+}
+.add{
+    right: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#totalprice{
+    font-size: 1.5rem;
+    color: #ed5564;
+    line-height: 4rem;
+}
+#confirm{
+    display: inline-block;
+    height: 100%;
+    width: 5rem;
+    background-color: #ed5564;
+    color: white;
+    float: right;
+    line-height: 4rem;
+}
+.store_names{
+    width: 5rem;
+}
+#empty{
+    width: 100%;
+    margin-top: 20rem;
+    text-align: center;
+    font-size: 2rem;
+}
+#empty p:nth-of-type(1){
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: lightgray;
+    font-size: 4rem;
+    margin: 0 auto;
+    color: white;
+
+}
+#guang{
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2rem;
+    line-height: 2rem;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 2px;
+    font-size: 1.5rem;
+}

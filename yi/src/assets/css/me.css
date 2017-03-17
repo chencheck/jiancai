@@ -1,0 +1,115 @@
+#shop-header{
+    width: 100%;
+    height: 18rem;
+    background-color: orangered;
+}
+#set{
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    color: white;
+}
+#set i:nth-of-type(1){
+    float: left;
+}
+#set i:nth-of-type(2){
+    float: right;
+}
+#touxiang{
+    width: 7rem;height: 7rem;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 5rem;color: white;
+    text-align: center;
+    line-height: 7rem;
+}
+#shop-login{
+    font-size: 2rem;
+    color: white;
+}
+#shop-caozuo {
+    display: flex;
+    /*margin-top: 1rem;*/
+    color: white;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0,.2);
+   
+}
+#shop-caozuo i{
+    font-size: 2rem;
+}
+#order{
+    margin-top: .5rem;
+     padding: 1rem;
+     width: 100%;
+     height: 10rem;
+     font-size: 1.5rem;
+     background-color: white;
+}
+#order>p:nth-of-type(1){
+    height: 3rem;
+}
+#order>p>span:nth-of-type(1){
+    float: left;
+}
+#order>p>span:nth-of-type(2){
+    float: right;
+    color: #aaaaaa;
+}
+#order-de{
+    padding-top: 1rem;
+    color: #aaaaaa;
+    border-top: 1px solid #eeeeee;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+#order-de i{
+ 
+    font-size:2rem;
+}
+#property{
+    width: 100%;
+    height: 3.5rem;
+    background-color: white;
+    margin-top: .5rem;
+    padding-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+
+}
+#property>p:nth-of-type(1){
+    height: 2rem;
+    border-bottom: 1px solid #f8f8f8;
+}
+#property>p>span:nth-of-type(1){
+    float: left;
+}
+#property>p>span:nth-of-type(2){
+    float: right;
+    color: #aaaaaa;
+}
+#user-set {
+    width: 100%;
+    margin-top: .5rem;
+}
+#user-set ul{
+    list-style: none;
+    background-color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+#user-set ul li{
+    width: 100%;
+    height: 3rem;
+    border-bottom: 1px solid #f8f8f8;
+}
+#user-set  ul li span:nth-of-type(1) {
+float: left;
+}
+#user-set  ul li span:nth-of-type(2) {
+float: right;
+}
